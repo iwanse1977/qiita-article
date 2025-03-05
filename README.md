@@ -32,7 +32,7 @@ postgres=# ALTER ROLE bromo PASSWORD 'ranupani1234'
 postgres-# ALTER USER bromo PASSWORD 'ranupani1234' LOGIN;
 postgres=# \q
 ```
-~~Strikethrough text/~~Teks dicoret~~
+~~Strikethrough text/Teks dicoret~~
 
 
 
