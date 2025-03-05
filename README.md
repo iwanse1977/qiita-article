@@ -24,9 +24,12 @@ cara Membuat garis Horizontal atau garis pemisah gunakan sintaks "---"
 
 `$ initdb -D /var/postgresql/data/ -U postgres -k -E UTF-8 -A md5 -W`
 
+```
 postgres=# CREATE ROLE bromo SUPERUSER;
 postgres=# ALTER ROLE bromo PASSWORD 'ranupani1234'
 postgres-# ALTER USER bromo PASSWORD 'ranupani1234' LOGIN;
 postgres=# \q
+```
+
 
 
