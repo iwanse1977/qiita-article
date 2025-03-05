@@ -6,16 +6,18 @@
 ## Sub Judul Cara Nulis blockquotes (Heading 2 /H2)
 
 > single blockquotes
-
 > blockquotes
 >> nested blockquotes
-
 ---
 cara Membuat garis Horizontal atau garis pemisah gunakan sintaks "---"
 
 
+### Nama-Nama Buah
+1. Pisang
+2. Jeruk
+3. Nanas
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
----
-lorem ipsum
+### Nama-Nama Buah
+- Pisang
+- Jeruk
+- Nanas
