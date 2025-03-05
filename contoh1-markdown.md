@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="golangci-lint logo" src="assets/go.png" height="150" />
+  <img alt="golangci-lint logo" src="[assets/go.png](https://raw.githubusercontent.com/golangci/golangci-lint/master/assets/go.png)" height="150" />
   <h3 align="center">golangci-lint</h3>
   <p align="center">Fast linters runner for Go</p>
 </p>
