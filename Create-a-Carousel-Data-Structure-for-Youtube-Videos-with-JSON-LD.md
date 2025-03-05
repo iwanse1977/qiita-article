@@ -32,3 +32,11 @@ You can use Carousel markup for your website data structure to organize content 
 3. Recipes
 4. Restaurants
 5. Videos (Clips or Youtube)
+
+## How is Carousel Schema implemented?
+To implement carousel markup on your website, it is important to decide which pages of your website will carry the markup.
+1. Summary Page: This page contains a mini description or summary of each item or itemList where each item in the list has three properties (type, position, and URL).
+2. Details Page: This page provides a detailed description of the data using carousel for data structuring. Example: if the summary page is about the best Pineapple cake recipe, then each detail page will have a RECIPE structured data property for that particular recipe.
+3. Single List/ All in one page: This is a single page entity that contains all the information related to the carousel. This is a single page link.
+
+
