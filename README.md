@@ -21,3 +21,7 @@ cara Membuat garis Horizontal atau garis pemisah gunakan sintaks "---"
 - Pisang
 - Jeruk
 - Nanas
+
+`$ initdb -D /var/postgresql/data/ -U postgres -k -E UTF-8 -A md5 -W`
+
+
