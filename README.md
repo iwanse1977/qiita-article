@@ -34,6 +34,8 @@ postgres=# \q
 ```
 ~~Strikethrough text/Teks dicoret~~
 
+Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja Github. Untuk melaksanakannya anda bisa buat repositori baru atau gunakan repositori yang sudah ada (karena untuk pembeljaran).
+
 
 
 
