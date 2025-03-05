@@ -1,0 +1,3 @@
+VideoObject is a data type in Schema.org that is commonly used to structure information about video clips. This data type allows webmasters and web developers to describe video files in a way that allows search engines and other platforms to better understand and index the content of articles containing video objects.
+
+Using VideoObject can increase the visibility of videos in search engines and speed up the indexing of your article posts by Google. When video information is structured using this type, it helps search engine algorithms extract and display more relevant results. For example, videos can be displayed as thumbnails or carousels in search results, increasing the likelihood that users will click on them.
