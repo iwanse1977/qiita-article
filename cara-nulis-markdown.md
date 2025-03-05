@@ -44,10 +44,12 @@ Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github
 | 03          | Salahudin     | 24          |
 | 04          | Udin sedunia  | 47          |
 
-### Heading 01 {#ref-h1-id}
+
+
+Here's a sentence with a footnote. [^1]
 
 lorem ipsum
 
-[Redirect to Heading 01](#ref-h1-id)
+[^1]: This is the footnote. 
 
 
