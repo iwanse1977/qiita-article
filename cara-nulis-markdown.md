@@ -36,6 +36,13 @@ postgres=# \q
 
 Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github](https://github.com/iwanse1977/qiita-article/blob/main/cara-nulis-markdown.md). Untuk melaksanakannya anda bisa buat repositori baru atau gunakan repositori yang sudah ada (karena untuk pembeljaran).
 
+### Cara buat tabel dengan Markdown
+| Nomor       | Nama          | Umur        | 
+| ----------- | -----------   | ----------- |
+| 01          | Udin          | 36          |
+| 02          | Aminudin      | 25          |
+| 03          | Salahudin     | 24          |
+| 04          | Udin sedunia  | 47          |
 
 
 
