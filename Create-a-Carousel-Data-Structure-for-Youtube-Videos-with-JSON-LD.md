@@ -11,7 +11,7 @@ Overall, VideoObject is an essential tool for optimizing video content on the In
 In this article we will explain how to create a Carousel data structure for VideoObject. As a case study we will use Google Blogger to implement the Carousel.
 
 ## What is ItemList Schema?
-In simple terms, ItemList Schema is used to mark a list of Items. The list can be of any type, say movies, products, apps, songs, etc., but all list items must have the same Schema type. You can also read the complete definition of ItemList in Schema. Movies. Recipes.
+In simple terms, [ItemList Schema](https://www.inchimediatama.org/2024/10/cara-menambahkan-peringkat-bintang.html) is used to mark a list of Items. The list can be of any type, say movies, products, apps, songs, etc., but all list items must have the same Schema type. You can also read the complete definition of ItemList in Schema. Movies. Recipes.
 
 Multiple Items in the ItemList schema are required to structure the data with the Carousel data structure. The first step you need to define is ItemList and ListItem.
 - **ItemList:** ItemList is a list that contains all the properties in the list.
@@ -82,5 +82,18 @@ Below is an example of a Carousel scheme script for Youtube Videos.
 </b:includable>
 ```
 
+In the script example above, the "embedUrl" code is the URL address of your video content on YouTube. The more videos you upload to YouTube, the longer the "embedUrl" code.
+
+You can place the script above anywhere above the </body> code, but the script above is not active or you cannot use the script. In order to use the script, you must activate the script.
+
+To activate the script, look for the code "<b:includable id='post' var='post'>" and type the following script below the code above.
+
+```
+<b:if cond='data:posts.length &gt; 0'>
+<b:include cond='data:view.isMultipleItems' data='posts' name='metacarouselvideo'/>  
+</b:if>
+```
+
+For troubleshooting issues, Google Search Console is your best friend and will help you with all your issues. Using carousels to structure your data not only makes it unique but also makes users visit your website again and again. If you are confused about which schema or structured data type to use to structure your website or webpage, you can always refer to our previous post that discusses [Schema.org](https://schema.org/) data structure.
 
 
