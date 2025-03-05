@@ -11,7 +11,9 @@
 >> nested blockquotes
 
 ---
-lorem ipsum
+cara Membuat garis Horizontal atau garis pemisah gunakan sintaks "---"
+
+
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
