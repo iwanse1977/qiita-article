@@ -14,10 +14,21 @@ In this article we will explain how to create a Carousel data structure for Vide
 In simple terms, ItemList Schema is used to mark a list of Items. The list can be of any type, say movies, products, apps, songs, etc., but all list items must have the same Schema type. You can also read the complete definition of ItemList in Schema. Movies. Recipes.
 
 Multiple Items in the ItemList schema are required to structure the data with the Carousel data structure. The first step you need to define is ItemList and ListItem.
-- ItemList: ItemList is a list that contains all the properties in the list.
-- ListItem: List of all the elements like URl, type, name, position.
-- item.name: Name of the item. Like movie name or recipe name.
-- item.url: Fully qualified URL of the item page.
-- item: individual property in the list. Like, Movie, Restaurant or recipe.
-- position: specifies the position of the item in the carousel structure.
+- **ItemList:** ItemList is a list that contains all the properties in the list.
+- **ListItem:** List of all the elements like URl, type, name, position.
+- **item.name:** Name of the item. Like movie name or recipe name.
+- **item.url:** Fully qualified URL of the item page.
+- **item:** individual property in the list. Like, Movie, Restaurant or recipe.
+- **position:** specifies the position of the item in the carousel structure.
 
+While Carousel Structured Data is a display of search results like a horizontal list. Google's search engine usually presents a movie carousel with content images, titles, and release years. It also uses this for books and many others.
+
+Carousels are list-like rich results that people can swipe through on mobile devices. They display multiple cards from the same site (also known as a hosted carousel). To enable carousels for your site, add Carousel structured data in combination with one of the supported content types.
+
+## Where can carousel data be used?
+You can use Carousel markup for your website data structure to organize content data such as:
+1. Movies
+2. Courses
+3. Recipes
+4. Restaurants
+5. Videos (Clips or Youtube)
