@@ -18,7 +18,9 @@ cara Membuat garis Horizontal atau garis pemisah gunakan sintaks "---"
 3. Nanas
 
 ### Nama-Nama Buah
-- Pisang
+- Apel
+  - green apple
+  - red apple
 - Jeruk
 - Nanas
 
