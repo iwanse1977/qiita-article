@@ -39,4 +39,48 @@ To implement carousel markup on your website, it is important to decide which pa
 2. Details Page: This page provides a detailed description of the data using carousel for data structuring. Example: if the summary page is about the best Pineapple cake recipe, then each detail page will have a RECIPE structured data property for that particular recipe.
 3. Single List/ All in one page: This is a single page entity that contains all the information related to the carousel. This is a single page link.
 
+## Create Youtube VideoObject Schema Carousel Script in Blogger
+As we have explained above, in this example we will practice the Youtube Video Carousel scheme for Google blogger. Although we apply this Carousel Scheme in blogger but you can also use it in other templates such as Joomla, Drupal, Gohugo and others.
+
+Below is an example of a Carousel scheme script for Youtube Videos.
+```
+<b:includable id='metacarouselvideo' var='posts'>
+<b:tag name='script' type='application/ld+json'>
+{
+&quot;@context&quot;:&quot;http://schema.org&quot;,
+&quot;@type&quot;:&quot;ItemList&quot;,
+&quot;itemListElement&quot;:
+                    [
+<b:loop index='i' values='data:posts' var='post'>
+{
+&quot;@type&quot;:&quot;ListItem&quot;,
+&quot;position&quot;:<b:eval expr='data:i + 1'/>,
+  
+  &quot;item&quot;: {
+  &quot;@type&quot;: &quot;VideoObject&quot;,
+  &quot;name&quot;: &quot;<data:post.title.jsonEscaped/>&quot;,
+  &quot;contentUrl&quot;: &quot;<data:post.url.canonical/>&quot;,  
+  &quot;embedUrl&quot; : [&quot;https://youtu.be/0_PiolxXngw&quot;, &quot;https://youtu.be/zcdBK0_mEks&quot;, &quot;https://youtu.be/APHKg0Sv5ls&quot;, &quot;https://youtu.be/ex_HBaVgwiQ&quot;, &quot;https://youtu.be/xX7fupNKc14&quot;, &quot;https://youtu.be/8yib19VUbJA&quot;, &quot;https://youtu.be/Bdhh5grAtBk&quot;, &quot;https://youtu.be/KUJxf2utxlQ&quot;],
+  <b:if cond='data:post.thumbnailUrl'>  
+  &quot;thumbnailUrl&quot; : [&quot;https://img.youtube.com/vi/0_PiolxXngw/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/zcdBK0_mEks/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/APHKg0Sv5ls/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/ex_HBaVgwiQ/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/xX7fupNKc14/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/8yib19VUbJA/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/Bdhh5grAtBk/mqdefault.jpg&quot;, &quot;https://img.youtube.com/vi/KUJxf2utxlQ/mqdefault.jpg&quot;],  
+  
+&quot;thumbnail&quot;: &quot;<b:eval expr='data:post.thumbnailUrl'/>&quot;,
+<b:else/>
+&quot;thumbnail&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPDiGLN0WIVlBM4MWvmlAodRyGl94YerRvht_KaclgWxr6iBV387QY9KXiCheLF335MU5YJVht3rWP0NCQI7U9gPbIt7iRFKwhiP_eHjFjrvdhtsPEh4z3w0-gyLl0w96NCOPX_XjGDjgRikZh2xxfQU0ShdfZfw8cpvaq4SMO0vMToslIoAIOOqF53QI/s320/Mohon%20maf%20artikel%20ini%20tak%20ada%20gambar.jpg&quot;,   
+&quot;thumbnailUrl&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPDiGLN0WIVlBM4MWvmlAodRyGl94YerRvht_KaclgWxr6iBV387QY9KXiCheLF335MU5YJVht3rWP0NCQI7U9gPbIt7iRFKwhiP_eHjFjrvdhtsPEh4z3w0-gyLl0w96NCOPX_XjGDjgRikZh2xxfQU0ShdfZfw8cpvaq4SMO0vMToslIoAIOOqF53QI/s320/Mohon%20maf%20artikel%20ini%20tak%20ada%20gambar.jpg&quot;,
+</b:if>
+&quot;uploadDate&quot;: &quot;<data:post.date.iso8601.jsonEscaped/>&quot;,
+&quot;description&quot;: &quot;<data:post.snippet.jsonEscaped/>&quot;
+}
+}
+<b:if cond='data:i != data:posts.length - 1'>,
+</b:if></b:loop>
+  ]
+
+  }
+</b:tag>
+</b:includable>
+```
+
+
 
