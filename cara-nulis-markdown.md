@@ -44,7 +44,13 @@ Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github
 | 03          | Salahudin     | 24          |
 | 04          | Udin sedunia  | 47          |
 
-
+### Cara buat tabel dengan Markdown
+| Nomor       | Nama          | 
+| ----------- | -----------   | 
+| 01          | Udin          | 
+| 02          | Aminudin      | 
+| 03          | Salahudin     | 
+| 04          | Udin sedunia  | 
 
 Here's a sentence with a footnote. [^1]
 
