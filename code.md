@@ -1,6 +1,5 @@
 ⚠️ Please read the [VULNERABILITIES](VULNERABILITIES.md) document for a list of
 fixed vulnerabilities
-
 ## 📦 Installation & Basic Usage
 
 🔒 If you will be parsing untrusted input from users, please consider setting the `html_input` and `allow_unsafe_links` options per the example above. See <https://commonmark.thephpleague.com/security/> for more details. If you also do choose to allow raw HTML input from untrusted users, consider using a library (like [HTML Purifier](https://github.com/ezyang/htmlpurifier)) to provide additional HTML filtering.
@@ -17,6 +16,10 @@ fixed vulnerabilities
 ## 📄 License
 ## 🏛️ Governance
 ## 🗺️ Who Uses It?
+### 👨‍💻 Обо мне :
+- На данный момент работаю в ООО "Команда Ф5" full-stack разработчиком 💻
+### 📈 Моя статистика :
+### 🛠️ Языки и инструменты разработки :
 
 
 
