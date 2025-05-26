@@ -50,7 +50,7 @@ Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github
 | 01          | Udin          | 
 | 02          | Aminudin      | 
 | 03          | Salahudin     | 
-| 04          | Udin sedunia  | 
+| 04          | Udin          | 
 
 Here's a sentence with a footnote. [^1]
 
