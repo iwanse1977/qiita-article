@@ -1,3 +1,4 @@
+![]()
 ⚠️ Please read the [VULNERABILITIES](VULNERABILITIES.md) document for a list of
 fixed vulnerabilities
 ## 📦 Installation & Basic Usage
