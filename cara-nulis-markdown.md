@@ -42,7 +42,7 @@ Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github
 | 01          | Udin          | 36          |
 | 02          | Aminudin      | 25          |
 | 03          | Salahudin     | 24          |
-| 04          | Udin sedunia  | 47          |
+| 04          | Udin          | 47          |
 
 ### Cara buat tabel dengan Markdown
 | Nomor       | Nama          | 
