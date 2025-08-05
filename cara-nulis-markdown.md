@@ -52,6 +52,14 @@ Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github
 | 03          | Salahudin     | 
 | 04          | Udin          | 
 
+### Cara buat tabel dengan Markdown
+| Nomor       | Nama          | Umur        | 
+| ----------- | -----------   | ----------- |
+| 01          | Udin          | 36          |
+| 02          | Aminudin      | 25          |
+| 03          | Salahudin     | 24          |
+| 04          | Udin          | 47          |
+
 Here's a sentence with a footnote. [^1]
 
 lorem ipsum
