@@ -53,12 +53,16 @@ Untuk mempermudah pembelajaran pembuaan teks Markdown, kita gunakan saja [Github
 | 04          | Udin          | 
 
 ### Cara buat tabel dengan Markdown
-| Nomor       | Nama          | Umur        | 
-| ----------- | -----------   | ----------- |
-| 01          | Udin          | 36          |
-| 02          | Aminudin      | 25          |
-| 03          | Salahudin     | 24          |
-| 04          | Udin          | 47          |
+| Nomor       | Nama          | Umur        |  tlp        |
+| ----------- | -----------   | ----------- | ----------- |
+| 01          | Udin          | 36          | 36          |
+| 02          | Aminudin      | 25          | 25          |
+| 01          | Udin          | 36          | 36          |
+| 02          | Aminudin      | 25          | 25          |
+| 01          | Udin          | 36          | 36          |
+| 02          | Aminudin      | 25          | 25          |
+| 01          | Udin          | 36          | 36          |
+| 02          | Aminudin      | 25          | 25          |
 
 Here's a sentence with a footnote. [^1]
 
